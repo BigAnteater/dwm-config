@@ -15,8 +15,11 @@ mkdir /usr/share/xsessions/
 mv dwm.desktop /usr/share/xsessions/
 pacman -S nitrogen
 
+echo "What is your username"
+read USERNAME
+
 echo "exec dwm &
 nitrogen --restore &
-slstatus &" > .profile
+slstatus &" > /home/USERNAME/.profile
 
 echo "DWM successfully installed!"
