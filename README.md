@@ -9,7 +9,7 @@ To install my DWM and configs, you will have to follow this guide.
 
 First, clone the repository into /usr/local.
 ```
-cd /usr/local && sudo git clone https://github.com/BigAnteater/dwm .
+cd /usr/local && sudo git clone https://github.com/BigAnteater/dwm
 ```
 Then run the installation script.
 ```
