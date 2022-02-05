@@ -10,7 +10,7 @@ cd st && make clean install && cd ..
 mv dwm.desktop /usr/share/xsessions/
 pacman -S nitrogen
 
-ehco "exec dwm &
+echo "exec dwm &
 nitrogen --restore &
 slstatus &" > .profile
 
