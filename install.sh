@@ -11,6 +11,7 @@ cd dmenu && make clean install && cd ..
 cd slstatus && make clean install && cd ..
 cd st && make clean install && cd ..
 
+mkdir /usr/share/xsessions/
 mv dwm.desktop /usr/share/xsessions/
 pacman -S nitrogen
 
