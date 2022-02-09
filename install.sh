@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "This will set up DWM."
+pacman -S ttf-font-awesome ttf-fira-code
 sleep 2s
 mkdir /usr/share/xsessions/
 mv dwm.desktop /usr/share/xsessions/
