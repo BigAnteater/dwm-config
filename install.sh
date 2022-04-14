@@ -21,6 +21,6 @@ read USERNAME
 
 echo "exec dwm &
 nitrogen --restore &
-slstatus &" > /home/$USERNAME/.profile
+slstatus" > /home/$USERNAME/.profile
 
 echo "DWM successfully installed!"
